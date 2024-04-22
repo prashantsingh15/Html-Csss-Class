@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+
+    <form action="backend.php" method="get">
+
+
+        <div>
+        <label for="fname">Enter the First name</label>
+        <input type="fname" id="fname" placeholder="Enter your name">
+
+    </div>
+    <br>
+
+
+    <div>
+        <label for="lname">Enter the Last Name</label>
+        <input type="lname" id="lname" placeholder="Last name">
+    </div>
+   <br>
+    <div>
+        <label for="Password">Enter the Password</label>
+        <input type="password" id="Password" placeholder="Enter Your Password">
+    </div>
+<br>
+<div>
+    <label for="email">Enter your Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+</div>
+<br>
+<div>
+    <label for="number"> Enter Your Number</label>
+    <input type="number" id="number" placeholder="Enter Your Number">
+</div>
+<br>
+<div>
+    <label for="birthday">DOB</label>
+    <input type="date" id="birthday">
+</div>
+
+<br>
+<div>
+    <label for="message">Type Message</label>
+    <br>
+    <textarea name="message" id="message" cols="50" rows="5" placeholder="Write Your Message"></textarea> 
+</div>
+
+
+<div>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">Female
+
+    <input type="radio" name="gender" value="others">Others
+    
+</div>
+
+<div>
+    <label for="hobby"></label>
+    <input type="checkbox" name="hobby"  value="Sports" > Gym
+    <input type="checkbox" name="hobby"  value="Kabbadi" > Kabbadi
+     <input type="checkbox" name="hobby"  value="Football" > Football
+      <input type="checkbox" name="hobby"  value="Martial Arts" >Martial Arys
+</div>
+<input type="submit" value="Send">
+
+
+    </form>
+    
+</body>
+</html>
