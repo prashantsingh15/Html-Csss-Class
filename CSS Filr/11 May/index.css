@@ -1,0 +1,54 @@
+.container {
+    background-color: lightgreen;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* Shorthand Properties */
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item {
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #bc4800;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+/* .item1 {
+    order: 2;
+} */
+
+.item1 {
+    flex-grow: 1;
+}
+.item4 {
+    flex-grow: 4;
+    flex-basis: 200px;
+}
+
+
+/* .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon h1{
+    text-align: center;
+}
+
+.icon a{
+    color: rgb(17, 112, 195);
+   
+} */

@@ -1,0 +1,23 @@
+.burger {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    font-style: italic;
+    font-family: cursive;
+    margin: 10px;
+
+
+}
+
+.burger div button{
+    background-color: red;
+    color: aliceblue;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

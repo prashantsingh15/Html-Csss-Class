@@ -1,0 +1,12 @@
+.container {
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+
+}
+
+/* Justify content always works with row */
+/* Align items works column wise */

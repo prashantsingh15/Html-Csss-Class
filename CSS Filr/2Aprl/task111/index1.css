@@ -1,0 +1,25 @@
+.navbar{
+    background-color: rgb(5, 222, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar .div1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

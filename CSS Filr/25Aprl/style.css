@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* For selecting any id we use # */
+#p1 {
+    background-color: #fff;
+}
+
+/* . is used for selecting class */
+.para {
+    background-color: #a23636;
+}
+
+*{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

@@ -1,0 +1,47 @@
+/* By default all elements are static  */
+/* And Position relartive is relative to its normal position.. and postion absolute moves from the edges from th */
+
+.container {
+    border: 3px solid red;
+    height: 1000px;
+    display: flex ;
+    margin: 100px;
+    position: relative;
+}
+
+.second {
+    border: 3px solid blue;
+    height: 1000px;
+    
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box1 {
+    background-color: #dbfc06;
+    /* position: relative; */
+    left: 0px;
+    top: 0px;
+}
+.box2 {
+    background-color: blue;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+.box3 {
+    background-color: #000000;
+    position: fixed;
+    top: 10px;
+}
+
+.box4 {
+    background-color: #e8009b;
+    position: sticky;
+    top: 0px;
+    z-index: 6;
+}

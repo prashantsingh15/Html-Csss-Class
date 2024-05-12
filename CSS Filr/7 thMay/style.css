@@ -1,0 +1,44 @@
+.item:first-child{
+    background-color: #00fffb;
+    color: brown;
+}
+
+.item:last-child{
+    background-color: #b81818;
+    color: white;
+}
+.item:nth-child(4){
+    background-color: #4e9c00;
+    color: ghostwhite;
+}
+
+/* Every nth element */
+
+.item:nth-child(2n) {
+    background-color: #edd414;
+}
+
+/* All good */
+li:nth-child(2n){
+    background-color: #a00707;
+    color: #00fffb;
+
+
+}
+
+li:nth-child(even) {
+    background-color: #0d155f;
+}
+
+a:hover{
+    font-size: 20px;
+    background-color: #ca6b05;
+}
+
+a[target="_blank"]:hover {
+    background-color: #b49d04;
+}
+
+input[type="text"] {
+    background-color: yellow;
+}

@@ -1,0 +1,15 @@
+.icon {
+    background-color: rgb(193, 119, 119);
+    color:aliceblue;
+    height:200px;
+    width:300px;
+    padding-top:50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right:50px ;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 20%;
+}
